@@ -55,11 +55,7 @@ public class TBCore {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		instance = this;
-		try {
-			Core.registerModAbsolute(getClass(), name, event.getModConfigurationDirectory().getAbsolutePath(), cfg);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		Core.registerModAbsolute(getClass(), name, event.getModConfigurationDirectory().getAbsolutePath(), cfg);
 		setupModInfo(event.getModMetadata());
 		TBBlocks.setup();
 		TBItems.setup();

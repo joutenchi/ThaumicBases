@@ -435,11 +435,11 @@ tb.rec.foci.speed.page.0=Speed foci increases the speed at which node restores i
 
 tc.research_name.TB.NodeFoci.Sinister=Manipulator Foci: Sinister
 tc.research_text.TB.NodeFoci.Sinister=A tiny mob spawner
-tb.rec.foci.sinister.page.0=Sinister foci will make the Manipulator slowly turn the node into a Sinister Node. Will only work with Normal nodes. Takes 6 minutes to finish.
+tb.rec.foci.sinister.page.0=Sinister foci will make the Manipulator slowly turn the node into a Sinister Node. Will only work with normal nodes. Takes 6 minutes to finish.
 
 tc.research_name.TB.NodeFoci.Unstable=Manipulator Foci: Instability
 tc.research_text.TB.NodeFoci.Unstable=Shaterring the node
-tb.rec.foci.unstable.page.0=Instability foci will make the Manipulator slowly turn the node into an Unstable Node. Will only work with Normal nodes. Takes 7 minutes to finish.
+tb.rec.foci.unstable.page.0=Instability foci will make the Manipulator slowly turn the node into an Unstable Node. Will only work with normal nodes. Takes 7 minutes to finish.
 
 tc.research_name.TB.NodeFoci.Efficiency=Manipulator Foci: Efficiency
 tc.research_text.TB.NodeFoci.Efficiency=Waste nothing
@@ -447,7 +447,7 @@ tb.rec.foci.efficiency.page.0=Efficiency foci will affect the node in a very spe
 
 tc.research_name.TB.NodeFoci.Bright=Manipulator Foci: Brightness
 tc.research_text.TB.NodeFoci.Bright=Making things brigher
-tb.rec.foci.bright.page.0=Brightness foci will make the Manipulator extremely slowly turn the node into a Bright Node. Will only work with Normal nodes. Takes 20 minutes to finish.
+tb.rec.foci.bright.page.0=Brightness foci will make the Manipulator extremely slowly turn the node into a Bright Node. Will only work with normal nodes. Takes 20 minutes to finish.
 
 tc.research_name.TB.NodeFoci.Destr=Manipulator Foci: Destruction
 tc.research_text.TB.NodeFoci.Destr=Making the node weaker
@@ -459,15 +459,15 @@ tb.rec.foci.hunger.page.0=Hunger foci will make the Manipulator slowly turn the 
 
 tc.research_name.TB.NodeFoci.Purity=Manipulator Foci: Purity
 tc.research_text.TB.NodeFoci.Purity=Node purification
-tb.rec.foci.pure.page.0=Purity foci will make the Manipulator slowly turn the node into a Pure Node. Will only work with Normal nodes. Takes 3 minutes to finish. Note, that the node will not recieve aspects that pure nodes usually have in them, but will still turn the biome around to Magical Forest.
+tb.rec.foci.pure.page.0=Purity foci will make the Manipulator slowly turn the node into a Pure Node. Will only work with normal or tainted nodes. Takes 3 minutes to finish with a normal node or 20 minutes with a tainted node. Note, that the node will not recieve aspects that pure nodes usually have in them, but will still turn the biome around to Magical Forest.
 
 tc.research_name.TB.NodeFoci.Stability=Manipulator Foci: Stability
 tc.research_text.TB.NodeFoci.Stability=Saving the dying nodes
-tb.rec.foci.stability.page.0=Stability foci will make the Manipulator slowly restore nodes. It will convert nodes into different types, using time. Converting a Fading node into Pale takes 5 minutes. Converting a Pale node into Normal takes 10 minutes. Removing the Sinister modifier takes 2 minutes. Removing the Unstable modifier takes 7 minutes. Removing the Hungry modifier takes 30 seconds. Removing the Taint modifier takes 30 Minutes.
+tb.rec.foci.stability.page.0=Stability foci will make the Manipulator slowly restore nodes. It will convert nodes into different types, using time. Converting a Fading node into Pale takes 5 minutes. Converting a Pale node into normal takes 10 minutes. Removing the Sinister modifier takes 2 minutes. Removing the Unstable modifier takes 7 minutes. Removing the Hungry modifier takes 30 seconds. Removing the Taint or Pure modifier takes 20 minutes.
 
 tc.research_name.TB.NodeFoci.Taint=Manipulator Foci: Taint
 tc.research_text.TB.NodeFoci.Taint=Why make everything worse?
-tb.rec.foci.taint.page.0=Taint foci will make the Manipulator slowly turn the node into a Tainted Node. Will only work with Normal nodes. Takes 6 minutes to finish. Note, that the node will not recieve aspects that tainted nodes usually have in them, but will still turn the biome around to Tainted Lands.
+tb.rec.foci.taint.page.0=Taint foci will make the Manipulator slowly turn the node into a tainted node. Will only work with normal nodes. Takes 6 minutes to finish. Note, that the node will not recieve aspects that tainted nodes usually have in them, but will still turn the biome around to tainted Lands.
 
 tc.research_name.TB.Enchantments=New Enchantments!
 tc.research_text.TB.Enchantments=Magic reborn!
@@ -495,7 +495,7 @@ tc.research_text.TB.ThaumicAnvil=Why haven't they thought about this?
 tb.rec.thaumicAnvil.page.0=You are annoyed by those anvils. They are breaking after a couple of hits and they are sapping your life force as if they were some kind of experience black hole! You have applied your knowledge of the magical metal otherwise known as thaumium to create a better anvil! The Thaumium Anvil lasts much longer than the mundane one, keeping full functionality! <BR>The Thaumium also is not your mundane iron - it can absorb much more life force at a time, increasing the maximum level the anvil can work with up to 60. It also seems that repairing items here has no cost penalty - it is always as you are repairing your pick the first time!
 
 tc.research_name.TB.VoidAnvil=Void metal Anvil
-tc.research_text.TB.VoidAnvil=Repare^2
+tc.research_text.TB.VoidAnvil=Repare²
 tb.rec.voidAnvil.page.0=Well, the Thaumium anvil is all well and good, but it also breaks. Maybe not that fast, but it still does. However, you have had an idea since you've unlocked that Void metal. What if you try to make an anvil out of that one? The results are... Interesting.<BR>First of all, your new-made anvil has kept the main property of the void metal - the ability to repair itself. The anvil will automatically repare itself, should you cause a block update right next to it. The anvil however acts much different - any operation here, no matter if you are renaming stuff or combining extremely efficient enchanted books always costs the same 7 levels of XP.
 tb.rec.voidAnvil.page.1=The anvil also seems to have no cost increase penalty, just as the thaumium one does.<BR>Whilst repairing you have seen some void metal flowing into the cracks of your tools. Sure that is nothing to worry about, right?
 
