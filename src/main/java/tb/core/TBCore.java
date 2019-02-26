@@ -31,6 +31,7 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.relauncher.Side;
+import tb.common.event.TBEventHandler;
 import static tb.core.TBCore.*;
 
 @Mod(modid = modid, version = version, name = name,dependencies=dependencies)
@@ -67,6 +68,7 @@ public class TBCore {
 	public void init(FMLInitializationEvent event)
 	{
 		MinecraftForge.EVENT_BUS.register(new EnchantmentHandler());
+                MinecraftForge.EVENT_BUS.register(new TBEventHandler());
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, proxy);
 		
 		EntityRegistry.registerModEntity(EntityRevolverBullet.class, "revolverBullet", 0, this, 32, 1, true);

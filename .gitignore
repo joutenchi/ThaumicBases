@@ -72,3 +72,4 @@ basesNew*
 
 ##API
 /src/api
+/.nb-gradle/
