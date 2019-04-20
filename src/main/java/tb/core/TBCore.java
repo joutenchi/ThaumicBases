@@ -31,8 +31,6 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.relauncher.Side;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import tb.common.event.TBEventHandler;
 import static tb.core.TBCore.*;
 
@@ -55,14 +53,9 @@ public class TBCore {
     public static TBCore instance;
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
+    public void preInit(FMLPreInitializationEvent event) throws IOException {
         instance = this;
-        try {
-            Core.registerModAbsolute(getClass(), name, event.getModConfigurationDirectory().getAbsolutePath(), cfg);
-        } catch (IOException ex) {
-            FMLCommonHandler.instance().raiseException(ex, "[ThaumicBases] unable to create cfg file, check your file system!", true);
-            return;
-        }
+        Core.registerModAbsolute(getClass(), name, event.getModConfigurationDirectory().getAbsolutePath(), cfg);
         setupModInfo(event.getModMetadata());
         TBBlocks.setup();
         TBItems.setup();

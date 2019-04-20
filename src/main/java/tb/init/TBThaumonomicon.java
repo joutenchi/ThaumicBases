@@ -739,7 +739,7 @@ public class TBThaumonomicon {
                         new ResearchPage(relocatorRec),
                         new ResearchPage(irelocatorRec)
                 ).registerResearchItem();
-        new ResearchItem("TB.HerobrinesScythe", catName, new AspectList().add(Aspect.ELDRITCH, 16).add(Aspect.DEATH, 16).add(Aspect.WEAPON, 16).add(Aspect.AURA, 8).add(Aspect.ENERGY, 6), 15, 1, 4, new ItemStack(TBItems.herobrinesScythe, 1, 0))
+        new ResearchItem("TB.HerobrinesScythe", catName, new AspectList().add(Aspect.ELDRITCH, 16).add(Aspect.DEATH, 16).add(Aspect.WEAPON, 16).add(Aspect.AURA, 8).add(Aspect.ENERGY, 6), 15, -1, 4, new ItemStack(TBItems.herobrinesScythe, 1, 0))
                 .setParents("TB.VOIDMETAL")
                 .setSpecial()
                 .setPages(
